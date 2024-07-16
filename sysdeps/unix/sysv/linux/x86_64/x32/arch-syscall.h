@@ -155,6 +155,7 @@
 #define __NR_lsm_set_self_attr 1073742284
 #define __NR_lstat 1073741830
 #define __NR_madvise 1073741852
+#define __NR_map_shadow_stack 1073742277
 #define __NR_mbind 1073742061
 #define __NR_membarrier 1073742148
 #define __NR_memfd_create 1073742143
@@ -182,6 +183,7 @@
 #define __NR_mq_timedsend 1073742066
 #define __NR_mq_unlink 1073742065
 #define __NR_mremap 1073741849
+#define __NR_mseal 1073742286
 #define __NR_msgctl 1073741895
 #define __NR_msgget 1073741892
 #define __NR_msgrcv 1073741894
