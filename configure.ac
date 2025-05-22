@@ -6,6 +6,8 @@ AC_CONFIG_SRCDIR([include/features.h])
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_AUX_DIR([scripts])
 
+AM_GNU_GETTEXT([external])
+AM_GNU_GETTEXT_VERSION(0.21)
 ACX_PKGVERSION([GNU libc])
 ACX_BUGURL([https://www.gnu.org/software/libc/bugs.html])
 AC_DEFINE_UNQUOTED([PKGVERSION], ["$PKGVERSION"],
